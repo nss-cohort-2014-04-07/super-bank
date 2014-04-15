@@ -1,0 +1,38 @@
+@import url(http://fonts.googleapis.com/css?family=Plaster);
+@import url(http://fonts.googleapis.com/css?family=Source+Code+Pro);
+h1 {
+  font-family: 'Plaster', cursive;
+  font-size: 50px;
+}
+#bank {
+  border: 1px dashed #cccccc;
+  display: inline-block;
+  padding: 10px;
+  background-color: rgba(255, 51, 214, 0.71);
+}
+#balance {
+  font-family: 'Source Code Pro';
+  font-size: 25px;
+}
+#ledger {
+  margin-top: 50px;
+  width: 600px;
+  border-top: 1px dashed #cccccc;
+}
+#ledger tr:nth-child(2n) {
+  background-color: #cccccc;
+}
+#ledger td {
+  width: 25%;
+  font-family: 'Source Code Pro';
+  font-size: 15px;
+}
+.deposit {
+  color: green;
+}
+.withdraw {
+  color: red;
+}
+.fee {
+  color: blue;
+}
